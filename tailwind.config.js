@@ -16,6 +16,9 @@ export default {
       },
       maxWidth : {
          "container" : "1320px"
+      },
+      boxShadow : {
+        'bijoy' : "0 6px 35px 0px rgba(0,0,0,0.06)"
       }
 
     },

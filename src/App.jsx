@@ -8,12 +8,16 @@ import Flex from './Components/Flex';
 import Navbar from './assets/layouts/Navbar'
 import Banner from './assets/layouts/Banner';
 import Rating from './assets/layouts/Rating';
+import Heading from './Components/Heading';
+import SubHeading from './Components/SubHeading';
+import Service from './assets/layouts/Service';
 const App = () => {
   return (
     <>
    <Navbar/>
    <Banner/>
    <Rating/>
+   <Service/>
     </>
     
   )
