@@ -11,6 +11,7 @@ import Rating from './assets/layouts/Rating';
 import Heading from './Components/Heading';
 import SubHeading from './Components/SubHeading';
 import Service from './assets/layouts/Service';
+import Recent from './assets/layouts/Recent';
 const App = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const App = () => {
    <Banner/>
    <Rating/>
    <Service/>
+   <Recent/>
     </>
     
   )
