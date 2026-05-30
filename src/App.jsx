@@ -12,6 +12,9 @@ import Heading from './Components/Heading';
 import SubHeading from './Components/SubHeading';
 import Service from './assets/layouts/Service';
 import Recent from './assets/layouts/Recent';
+import Agency from './assets/layouts/Agency';
+import Review from './assets/layouts/Review';
+import Contact from './assets/layouts/Contact';
 const App = () => {
   return (
     <>
@@ -20,6 +23,9 @@ const App = () => {
    <Rating/>
    <Service/>
    <Recent/>
+   <Agency/>
+   <Review/>
+   <Contact/>
     </>
     
   )
