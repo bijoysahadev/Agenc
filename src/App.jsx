@@ -15,6 +15,7 @@ import Recent from './assets/layouts/Recent';
 import Agency from './assets/layouts/Agency';
 import Review from './assets/layouts/Review';
 import Contact from './assets/layouts/Contact';
+import Footer from './assets/layouts/Footer';
 const App = () => {
   return (
     <>
@@ -26,6 +27,7 @@ const App = () => {
    <Agency/>
    <Review/>
    <Contact/>
+   <Footer/>
     </>
     
   )

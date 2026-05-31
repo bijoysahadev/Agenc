@@ -3,7 +3,8 @@ import React from "react";
 import Flex from "../../Components/Flex";
 import Heading from "../../Components/Heading";
 import SubHeading from "../../Components/SubHeading";
-
+import Label from "../../Components/Label";
+import Button from '../../Components/Button'
 const Contact = () => {
   return (
     <section className="py-[150px] bg-[#F3F3F3]">
@@ -24,15 +25,16 @@ const Contact = () => {
             />
           </div>
           <div className="w-1/2  ">
-            <div className="h-[622px] w-[536px] bg-white rounded-[20px] py-[61px] px-[43px]">
+            <form className="pb-[30px] w-[536px] bg-white rounded-[20px] py-[61px] px-[43px]">
               <h4 className="text-third text-[30px] text-center font-bold">
                 Get a free quote now
               </h4>
 
-              <label className="text-base text-third font-medium font-inter ">Name
-                <input type="text"  className="mt-2 w-full py-[19px] px-[23px] rounded-[10px] border border-[#E8E8E8]" placeholder="Enter Your Name" />
-              </label>
-            </div>
+            <Label text={`Enter your name`} tittle={`Name`} type1={`name`} type2={`name`}/>
+            <Label className={`py-5 block` } text={`Enter your email`} tittle={`Email`} type1={`email`} type2={`email`}/>
+            <Label type1={`number`} type2={`number`} text={`Enter your phone number`} tittle={`Phone`}/>
+           <Button className={`w-full mt-[30px] py-[19px]`} text={`Get Pricing Now`} />
+            </form>
           </div>
         </Flex>
       </Container>
